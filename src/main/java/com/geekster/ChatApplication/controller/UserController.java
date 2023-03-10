@@ -135,7 +135,6 @@ public class UserController {
         } else {
             errorList.put("phoneNumber", "Missing parameter");
         }
-
         return errorList;
     }
 
